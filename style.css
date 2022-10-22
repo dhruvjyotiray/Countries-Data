@@ -1,0 +1,133 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+#languageChart {
+    background-color: rgb(249, 169, 20);
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 2%;
+    /* display: flex;
+    justify-content: flex-start; */
+
+   
+}
+
+#languageChart:hover {
+    background-color: rgb(215, 144, 12);
+}
+
+
+#main-content {
+    width: 65%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#customHeaderLang {
+    display: flex;
+    justify-content: center;
+}
+
+
+#langRankDiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#barChartDiv{
+    width: 100%;
+    margin-left: 30px;
+}
+
+#langName{
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 10px;
+    height: 50px;
+    align-items: center;
+    font-size: 18px;
+
+    
+}
+
+#langNum{
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 10px;
+    height: 50px;
+    align-items: center;
+    font-size: 18px;
+}
+
+#first-section{
+    background-color: rgb(245, 243, 243);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    border: solid rgb(241, 239, 239) 3px;
+    
+}
+
+h1 {
+    margin: 10px;
+    color:rgb(249, 169, 20);
+    font-size: 50px;
+}
+
+h3 {
+    font-weight: 500;
+    margin-top: 10px;
+    color: rgb(79, 78, 78);
+    font-size: 20px;
+}
+
+#second-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+
+button {
+    background-color: rgb(249, 169, 20);
+    border: 0;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 3%;
+    margin: 0 10px;
+    color: rgb(69, 68, 68);
+    transition: all 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+
+button:active {
+    background-color: black;
+    color: rgb(249, 169, 20);
+}
+
+p {
+    color: rgb(79, 78, 78);
+}
+
+
+
+#info-text{
+    margin-bottom: 10px;
+}
+
